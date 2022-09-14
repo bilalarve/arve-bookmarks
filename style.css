@@ -67,8 +67,9 @@ p.last-update {
   align-items: center;
   justify-content: center;
   color: #58627c;
+  background-color: #3b4459;
   font-size: 20px;
-  border: 1px solid #58627c;
+  /* border: 1px solid #58627c; */
   text-decoration: none;
   padding: 18px;
   border-radius: 6px;
@@ -81,7 +82,6 @@ p.last-update {
   border-radius: 50px;
   color: white;
   background-color: #da4e22;
-  border: 1px solid #da4e22;
   transform: scale(120%);
 }
 
@@ -156,6 +156,7 @@ p.last-update {
 
 .card-content {
   border-left: 1px solid #3b4459;
+  border-bottom: 1px solid #3b4459;
   margin: 0px;
   padding: 32px 67px;
   display: flex;
@@ -174,8 +175,29 @@ p.last-update {
 
 /* LOGO KONTEN */
 
-.adobe {
+.logo-1 {
   background-image: url(assets/adobe.png);
+}
+.logo-2 {
+  background-image: url(assets/H.svg);
+}
+.logo-3 {
+  background-image: url(assets/R.svg);
+}
+.logo-4 {
+  background-image: url(assets/A.svg);
+}
+.logo-5 {
+  background-image: url(assets/B.svg);
+}
+.logo-6 {
+  background-image: url(assets/foto.png);
+}
+.logo-7 {
+  background-image: url(assets/Z.svg);
+}
+.logo-8 {
+  background-image: url(assets/X.svg);
 }
 
 /* END LOGO KONTEN */
@@ -203,6 +225,8 @@ p.last-update {
 }
 
 .card-content:hover {
+  transition: 0.5s cubic-bezier(0.91, 0.08, 0.19, 0.87);
   background-color: #3b445980;
   border-left: 6px solid #da4e22;
+  transform: scale(110%) translateX(50px);
 }
